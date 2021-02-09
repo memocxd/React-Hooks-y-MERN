@@ -19,7 +19,7 @@ import PrimeraApp from './PrimeraApp';
 const divRoot = document.querySelector('#root');
 
 // const saludo = <h1>Hola mundo!!!</h1>;
-ReactDOM.render( <PrimeraApp /> , divRoot );
+ReactDOM.render( <PrimeraApp saludo="Hola soy DIOS" /> , divRoot );
 
 
 
